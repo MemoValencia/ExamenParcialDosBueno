@@ -4,9 +4,9 @@ public class HiloUnoE extends Thread{
     public void run(){
         System.out.println("NOSEQUIENES:");
         for (int i = 0; i <= 15; i++) {
-            System.out.println(i + "km.");
+            System.out.println(i + " pasos dados:");
             try {
-                sleep(5000);
+                sleep(500);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
